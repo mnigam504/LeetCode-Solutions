@@ -19,9 +19,7 @@ public:
                 if((st.top()=='(' and s[i]==')') or (st.top()=='[' and s[i]==']') or (st.top()=='{' and s[i]=='}'))
                 {
                     st.pop();
-                    continue;
-                }
-                else{
+                }else{
                     return false;
                 }
                 }
